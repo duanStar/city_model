@@ -6,7 +6,7 @@ export class Snow {
         return new Points(scene, {
             range: 1000,
             count: 600,
-            url: '/assets/snow.png',
+            url: '/city_model/assets/snow.png',
             size: 30,
             setAnimation(item) {
                 item.x -= item.speedX

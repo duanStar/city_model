@@ -3,7 +3,7 @@ import * as THREE from 'three'
 export class Background {
     constructor(scene) {
         this.scene = scene
-        this.url = '/assets/white-bg.png'
+        this.url = '/city_model/assets/white-bg.png'
         this.init()
     }
 

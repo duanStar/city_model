@@ -77,7 +77,7 @@ export class City {
     }
 
     loadCity() {
-        loadFBX('/model/beijing.fbx').then(obj => {
+        loadFBX('/city_model/model/beijing.fbx').then(obj => {
             obj.traverse(child => {
                 if (child.isMesh) {
                     // 自己创建mesh,便于控制
