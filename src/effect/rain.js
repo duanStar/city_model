@@ -5,7 +5,7 @@ export class Rain {
         return new Points(scene, {
             range: 2000,
             count: 800,
-            url: 'src/assets/rain.png',
+            url: '/assets/rain.png',
             size: 10,
             setAnimation(item) {
                 item.y -= item.speedY
